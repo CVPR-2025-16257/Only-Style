@@ -34,14 +34,16 @@ header p {
 
 /* Buttons Section */
 .buttons {
-    text-align: center;
-    margin: 30px auto; /* Center the buttons */
-    padding: 10px 0;
+    display: flex; /* Flexbox layout for alignment */
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 20px; /* Space between buttons */
+    margin: 30px auto; /* Center the entire buttons section */
+    padding: 20px 0; /* Add spacing inside the section */
+    max-width: 800px; /* Optional: Limit the width of the buttons container */
 }
 
 .button {
     display: inline-block;
-    margin: 12px 8px;
     padding: 12px 25px;
     font-size: 1rem;
     font-weight: 600;
