@@ -45,7 +45,7 @@ header p {
     font-size: 0.9rem;
     font-weight: bold;
     color: white;
-    background-color: #4CAF50;
+    background-color: #555;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -54,7 +54,7 @@ header p {
 }
 
 .button:hover {
-    background-color: #388e3c;
+    background-color: #555;
 }
 
 /* Footer */
