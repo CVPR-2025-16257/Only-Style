@@ -33,10 +33,11 @@ header p {
 }
 
 <style>
-/* Add your button styles here */
+/* Buttons Section */
 .buttons {
     text-align: center;
-    margin: 30px 0;
+    margin: 30px auto; /* Center the buttons */
+    padding: 10px 0;
 }
 
 .button {
