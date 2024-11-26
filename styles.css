@@ -38,25 +38,27 @@ header p {
     margin: 20px 0;
 }
 
+/* Button Styles */
 .button {
     display: inline-block;
-    margin: 10px 5px;
-    padding: 10px 20px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    color: white;
-    background-color: #555;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin: 12px 8px; /* Balanced spacing between buttons */
+    padding: 12px 25px; /* Slightly larger padding for better touch targets */
+    font-size: 1rem; /* Slightly increased font size for readability */
+    font-weight: 600; /* Bold font for emphasis */
+    color: white; /* White text color */
+    background-color: #333; /* Black/dark gray background */
+    border: 2px solid transparent; /* Transparent border for hover animation */
+    border-radius: 8px; /* More rounded corners for a modern look */
+    text-decoration: none; /* No underline */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
+/* Button Hover Effect */
 .button:hover {
-    background-color: #555;
+    background-color: #555; /* Dark gray hover effect */
+    border-color: #888; /* Subtle border highlight on hover */
 }
-
 /* Footer */
 footer {
     background-color: #222;
