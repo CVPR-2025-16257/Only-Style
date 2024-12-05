@@ -30,13 +30,10 @@
         </iframe>
     </section>
 
-    <section style="padding: 20px; max-width: 800px; margin: 0 auto; text-align: justify;">
-        <h2>Abstract</h2>
+    <section style="text-align: center; padding: 20px;">
+        <h2 style="margin-bottom: 20px;">Abstract</h2>
         <p>
-            Recent state-of-the-art style alignment methods in generative text-to-image use attention layers during batched inference to transfer stylistic elements from a reference image to others, removing the need for additional optimization to establish new visual priors. However, such approaches often fail to effectively separate semantic content from stylistic elements, leading to content leakage from the reference image to the targets. To address this challenge, we propose Only-Style: a method designed to mitigate content leakage in a semantically coherent manner, within the context of attention-based style alignment, while preserving stylistic consistency.
-        </p>
-        <p>
-            Only-Style works by localizing content leakage during inference, allowing the adaptive tuning of a scaling parameter that controls the style alignment process, specifically within the image patches containing the subject in the reference image. This adaptive process results in the optimal value that eliminates leakage while maintaining stylistic alignment. In addition, we propose a novel evaluation framework to quantify the success of style-aligned generations in avoiding undesired content leakage. Our approach demonstrates a significant improvement over state-of-the-art methods through extensive evaluation across diverse instances, consistently achieving robust style alignment without undesired content leakage.
+            Recent state-of-the-art style alignment methods in generative text-to-image use attention layers during batched inference to transfer stylistic elements from a reference image to others, removing the need for additional optimization to establish new visual priors. However, such approaches often fail to effectively separate semantic content from stylistic elements, leading to content leakage from the reference image to the targets. To address this challenge, we propose Only-Style: a method designed to mitigate content leakage in a semantically coherent manner, within the context of attention-based style alignment, while preserving stylistic consistency. Only-Style works by localizing content leakage during inference, allowing the adaptive tuning of a scaling parameter that controls the style alignment process, specifically within the image patches containing the subject in the reference image. This adaptive process results in the optimal value that eliminates leakage while maintaining stylistic alignment. In addition, we propose a novel evaluation framework to quantify the success of style-aligned generations in avoiding undesired content leakage. Our approach demonstrates a significant improvement over state-of-the-art methods through extensive evaluation across diverse instances, consistently achieving robust style alignment without undesired content leakage.
         </p>
     </section>
 
